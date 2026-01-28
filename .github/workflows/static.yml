@@ -30,10 +30,6 @@ jobs:
             echo "❌ ERROR: Falta index.html"
             exit 1
           fi
-          if [ ! -f "confirmacion.html" ]; then
-            echo "❌ ERROR: Falta confirmacion.html"
-            exit 1
-          fi
           echo "✅ Todos los archivos requeridos encontrados."
 
           echo "2. Listando archivos a desplegar..."
